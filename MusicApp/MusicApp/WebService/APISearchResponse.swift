@@ -1,10 +1,11 @@
 //
 //  APIResponseModel.swift
-//  MusicApp
+//  Last.Fm Search
 //
-//  Created by shohib mohammed pathan on 20/05/19.
-//  Copyright © 2019 AppKrafting. All rights reserved.
+//  Created by Owner on 06/03/2019.
+//  Copyright © 2019 Thomas. All rights reserved.
 //
+
 import Foundation
 
 struct APISearchResponse: Codable {
