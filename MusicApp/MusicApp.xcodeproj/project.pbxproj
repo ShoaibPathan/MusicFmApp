@@ -34,6 +34,11 @@
 		DAEE1B712292C47B00EA4781 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B6D2292C47B00EA4781 /* ServiceAPI.swift */; };
 		DAEE1B722292C47B00EA4781 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B6E2292C47B00EA4781 /* ImageManager.swift */; };
 		DAEE1B732292C47B00EA4781 /* APISearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B6F2292C47B00EA4781 /* APISearchResponse.swift */; };
+		DAEE1B792292C50600EA4781 /* ArtistListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B742292C50500EA4781 /* ArtistListViewModelTest.swift */; };
+		DAEE1B7A2292C50600EA4781 /* APISearchResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B752292C50600EA4781 /* APISearchResponseTest.swift */; };
+		DAEE1B7B2292C50600EA4781 /* AlbumListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B762292C50600EA4781 /* AlbumListViewModelTest.swift */; };
+		DAEE1B7C2292C50600EA4781 /* TrackListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B772292C50600EA4781 /* TrackListViewModelTest.swift */; };
+		DAEE1B7D2292C50600EA4781 /* Last_Fm_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE1B782292C50600EA4781 /* Last_Fm_SearchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,11 @@
 		DAEE1B6D2292C47B00EA4781 /* ServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
 		DAEE1B6E2292C47B00EA4781 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		DAEE1B6F2292C47B00EA4781 /* APISearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISearchResponse.swift; sourceTree = "<group>"; };
+		DAEE1B742292C50500EA4781 /* ArtistListViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistListViewModelTest.swift; sourceTree = "<group>"; };
+		DAEE1B752292C50600EA4781 /* APISearchResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISearchResponseTest.swift; sourceTree = "<group>"; };
+		DAEE1B762292C50600EA4781 /* AlbumListViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListViewModelTest.swift; sourceTree = "<group>"; };
+		DAEE1B772292C50600EA4781 /* TrackListViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackListViewModelTest.swift; sourceTree = "<group>"; };
+		DAEE1B782292C50600EA4781 /* Last_Fm_SearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Last_Fm_SearchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,11 @@
 			isa = PBXGroup;
 			children = (
 				DAEE1B2B2292C2B300EA4781 /* MusicAppTests.swift */,
+				DAEE1B762292C50600EA4781 /* AlbumListViewModelTest.swift */,
+				DAEE1B752292C50600EA4781 /* APISearchResponseTest.swift */,
+				DAEE1B742292C50500EA4781 /* ArtistListViewModelTest.swift */,
+				DAEE1B782292C50600EA4781 /* Last_Fm_SearchTests.swift */,
+				DAEE1B772292C50600EA4781 /* TrackListViewModelTest.swift */,
 				DAEE1B2D2292C2B300EA4781 /* Info.plist */,
 			);
 			path = MusicAppTests;
@@ -394,7 +409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEE1B7B2292C50600EA4781 /* AlbumListViewModelTest.swift in Sources */,
+				DAEE1B7C2292C50600EA4781 /* TrackListViewModelTest.swift in Sources */,
+				DAEE1B7D2292C50600EA4781 /* Last_Fm_SearchTests.swift in Sources */,
 				DAEE1B2C2292C2B300EA4781 /* MusicAppTests.swift in Sources */,
+				DAEE1B7A2292C50600EA4781 /* APISearchResponseTest.swift in Sources */,
+				DAEE1B792292C50600EA4781 /* ArtistListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
